@@ -1,0 +1,23 @@
+env:
+  browser: false
+  commonjs: true
+  es2021: false
+  node: true
+
+extends: eslint:recommended
+parserOptions:
+  ecmaVersion: latest
+rules:
+  no-console: 0
+  indent:
+    - error
+    - tab
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - double
+  semi:
+    - error
+    - always
